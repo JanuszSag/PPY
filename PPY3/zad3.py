@@ -22,19 +22,21 @@ match int(czyKomputer):
             else: print("Przegrałaś/eś")
 
     case 2:
+        wynik_pierwszy = 0
+        nazwa_pierwszy = input("Podaj nazwe gracza pierwszego: ")
+        wynik_drugi = 0
+        nazwa_drugi = input("Podaj nazwe gracza drugiego: ")
         for x in range(rundy):
-            wynik_pierwszy = 0
-            wynik_drugi = 0
             pierwszy = getpass.getpass("Gracz 1: Papier (1), Kamień (2), Nożyce (3) ")
             drugi = getpass.getpass("Gracz 2: Papier (1), Kamień (2), Nożyce (3) ")
             if (int(pierwszy) == int(drugi)): print("Remis!")
-            if (int(pierwszy) == 1 and int(drugi) == 2 or int(pierwszy) == 2 and int(drugi) == 3 or int(pierwszy) == 3 and int(drugi) == 1): 
+            elif (int(pierwszy) == 1 and int(drugi) == 2 or int(pierwszy) == 2 and int(drugi) == 3 or int(pierwszy) == 3 and int(drugi) == 1): 
                 print("Wygrywa gracz 1!")
                 wynik_pierwszy+=1
             else :
                 print("Wygrywa gracz 2!")
                 wynik_drugi+=1
         print("Wyniki")
-        print("Pierwszy gracz ma {} punktów".format(wynik_pierwszy))
-        print("Drugi gracz ma {} punktów".format(wynik_drugi))
+        print("Gracz {} ma {} punktów".format(nazwa_pierwszy,wynik_pierwszy))
+        print("Gracz {} ma {} punktów".format(nazwa_drugi,wynik_drugi))
         
