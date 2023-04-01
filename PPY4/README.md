@@ -9,10 +9,15 @@ np.:
 prime(0, 1, 2, 3, 4, 5)
 ```
 0 is not prime
+
 1 is not prime
+
 2 is prime number
+
 3 is prime number
+
 4 is not prime
+
 5 is prime number
 ## 3.
 Napisz funkcję szyfrującą wiadomość szyfrem cezara. Dla ułatwienia należy przekształcić wiadomość tak aby zawierała tylko wielkie lub małe litery. 
