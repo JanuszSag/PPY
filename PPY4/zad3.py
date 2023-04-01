@@ -19,4 +19,4 @@ def cezar(wiadomosc, klucz, alfabet="abcdefghijklmnopqrstuvwxyz"):
             wynik+=i
     return wynik
 
-print(cezar("The Project Gutenberg eBook of Alice’s Adventures in Wonderland, by Lewis Carroll",5))
+print(cezar("The Project Gutenberg eBook of Alice’s Adventures in Wonderland, by Lewis Carroll",3,["a","B"]))
