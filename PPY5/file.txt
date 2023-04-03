@@ -1,0 +1,4 @@
+Damian Wasik s1234@pjwstk.edu.pl 21 2 GRADED
+Kamil Zdun s4321@pjwstk.edu.pl 37 3 MAILED
+Janusz Sagatynski s2137@pjwstk.edu.pl 100 5 GRADED
+Adam Sliwa s1488@pjwstk.edu.pl 99 5 
