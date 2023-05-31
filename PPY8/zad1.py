@@ -3,10 +3,6 @@ from tkinter import ttk
 from screeninfo import get_monitors
 import sqlite3
 
-f = open("plik.txt")
-content = f.read().split("\n")
-f.close()
-
 def fetch_data():
     try:
         mydb = sqlite3.connect("studenci.db")
@@ -21,7 +17,7 @@ def fetch_data():
         if mycursor:
              mycursor.close()
         if mydb:
-                mydb.close()
+            mydb.close()
     return result
 
 def load_data():
